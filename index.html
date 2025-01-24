@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechNova Innovations provides cutting-edge web development, cloud solutions, and AI/ML services.">
+    <meta name="keywords" content="web development, cloud solutions, AI, machine learning, tech company">
+    <title>TechNova Innovations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="logo">
+        <img src="logo.jpg" alt="TechNova Logo" width="150" height="70" >
+        </a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="hero" id="home" style="background: linear-gradient(135deg, rgba(30, 144, 255, 0.8), rgba(255, 99, 71, 0.8)), url('hero-bg.jpg') center/cover no-repeat;">
+      <div class="hero-content">
+          <h1 style="font-family: 'Poppins', sans-serif;">Shaping the Future of Technology</h1>
+          <p>Innovative solutions for a digital world</p>
+          <a href="#services" class="cta-btn">Explore Our Services</a>
+      </div>
+  </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <img src="web-dev-icon.svg" alt="Web Development Icon">
+            <h3>Web Development</h3>
+            <p>Custom web solutions to enhance user experience.</p>
+        </div>
+        <div class="service-card">
+            <img src="cloud-icon.svg" alt="Cloud Solutions Icon">
+            <h3>Cloud Solutions</h3>
+            <p>Scalable, secure cloud services tailored to your business.</p>
+        </div>
+        <div class="service-card">
+            <img src="ai-icon.svg" alt="AI/ML Services Icon">
+            <h3>AI/ML Services</h3>
+            <p>Leverage AI to drive efficiency and insights.</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us" id="about">
+        <h2>About Us</h2>
+        <p>At TechNova Innovations, we are committed to providing innovative technology solutions that enable businesses to thrive in a rapidly changing digital landscape.</p>
+        <div class="team">
+            <div class="team-member">
+                <img src="akash.jpg" alt="Akash">
+                <h4>Akash Singh</h4>
+                <p>CEO and Founder</p>
+            </div>
+            <div class="team-member">
+                <img src="shivam.jpg" alt="Shivam">
+                <h4>Shivam Rai</h4>
+                <p>Lead Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us" id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+      
+    </section>
+
+    <!-- Testimonial Slider -->
+    <section class="testimonial-slider">
+        <div class="testimonial active">
+            <p>"TechNova transformed our digital infrastructure."</p>
+            <h4>- Client A</h4>
+        </div>
+        <div class="testimonial">
+            <p>"The AI solutions improved our efficiency by 30%!"</p>
+            <h4>- Client B</h4>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
